@@ -1,0 +1,451 @@
+#bg1 {
+    background-image: url('lbg.jpg');
+    background-repeat: no-repeat;
+    background-size: 1500px 900px;
+  }
+
+  #bg2 {
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #bg3 {
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  
+  #mainhead {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family:'Athletics TRIAL';
+    text-align: center;
+    text-decoration: underline;
+    font-size: 150px;
+    transform: translate(20px, 190px);
+    text-shadow: black;
+
+    
+  }
+
+
+  #prompt {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: 'Athletics TRIAL';
+    text-align: center;
+    transform: translate(1.5%,30%);
+    font-size: 35px;
+  }
+
+  button {
+    color: white;
+    background-color: #436FB6;
+    font-family: 'Athletics TRIAL';
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 22px;
+    font-size: 20px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border: none;
+}
+    
+    #buttonc {
+        display: flex;
+        justify-content: center;
+        border: none;
+    }
+
+    
+  
+
+  button:hover {
+    background-color: #CCB6DA;
+    color: white;
+  }
+
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #436FB6;
+    position: fixed;
+  top: 0;
+  width: 99%;
+  }
+
+  
+  li {
+    float: left;
+    background-color: #436FB6;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Helvetica';
+    font-weight: bold;
+  }
+
+  li a:hover {
+    background-color: #757A84; }
+
+  #foot {
+    background-image: linear-gradient(to bottom right, #436FB6,#889DFA);
+    padding-bottom: 60px;
+    position: fixed;
+  bottom: 0;
+  width: 99%;
+  }
+
+  #quiz {
+    float: right;
+  }
+#gshead {
+    font-family: 'Athletics TRIAL';
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    background: -webkit-linear-gradient(#EAFF94, #77C771); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: black;
+    margin-top: 70px;
+}
+  
+#imagesd {
+  display:flex;
+  padding-bottom: 50px;
+  }
+
+#code {
+    color: white;
+    text-align: center;
+    margin-bottom: -30px;
+    font-family: 'Athletics TRIAL';
+}
+#foot
+{
+    font-family: 'Athletics TRIAL';
+    color: white;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+a { 
+    color: white;
+}
+
+form {
+  color: white;
+  font-family: 'Athletics TRIAL';
+  text-align: center;
+  padding: 60px 60px;
+}
+
+input[type=text] {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  opacity: 70%;
+  border-radius: 10px;
+}
+input[type=submit] {
+  background-color: #889DFA;
+  color:white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  font-family: 'Athletics TRIAL';
+}
+
+input[type=submit]:hover {
+  background-color: #CCB6DA;
+}
+
+.contacttext {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+#message {
+  opacity: 70%;
+  box-sizing: border-box;
+}
+
+form {
+  padding : 10px;
+ 
+ 
+  }
+
+  #contactf {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .maldi {
+    position: relative;
+    width: 500px;
+    display: block;
+    width: 100%;
+  }
+
+  div.imgboverlay {
+position: absolute;
+top: 0;
+left: 0;
+width: 86%;
+height: 99%;
+background:rgba(0, 0, 0, 0.6);
+font-family: 'Athletics trial';
+color: white;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+opacity: 0%;
+  }
+
+  div.imgboverlay:hover {
+    opacity: 1;
+    transition: 300ms;
+  }
+
+  p.imgmdescription {
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: -40px;
+  }
+
+  div.imgtitleb
+  {
+    font-size: 2em;
+    font-weight: bold;
+  }
+
+  div.bali {
+    position: relative;
+    width: 500px;
+    display: block;
+    width: 100%;
+ }
+
+
+
+  div.balioverlay {
+position: absolute;
+top: 185px;
+left: 30;
+width: 31.25%;
+height: 53%;
+background:rgba(0, 0, 0, 0.6);
+font-family: 'Athletics trial';
+color: white;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+opacity: 0%;
+  }
+
+  div.balioverlay:hover {
+    opacity: 1;
+    transition: 300ms;
+  }
+
+  p.balidesc {
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: -40px;
+  }
+
+  div.balititle
+  {
+    font-size: 2em;
+    font-weight: bold;
+  }
+
+  div.newy {
+    position: relative;
+    width: 500px;
+    display: block;
+    width: 100%;
+ }
+
+
+
+  div.nyover {
+position: absolute;
+top: 185px;
+left: 30;
+width: 31.25%;
+height: 53%;
+background:rgba(0, 0, 0, 0.6);
+font-family: 'Athletics trial';
+color: white;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+opacity: 0%;
+  }
+
+  div.nyover:hover {
+    opacity: 1;
+    transition: 300ms;
+  }
+
+  p.nydesc {
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: -40px;
+  }
+
+  div.nytitle
+  {
+    font-size: 2em;
+    font-weight: bold;
+  }
+
+  h2 {text-align: center;
+  font-family:'athletics trial';
+  }
+
+
+div.about {
+  background-image: url(aboutbanner.jpg);
+  background-size: 1500px, 10px;
+  background-repeat: no-repeat;
+  border: 5px solid #ffffff;
+}
+
+div.transbox {
+  margin: 45px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.7;
+}
+
+div.transbox p {
+  font-family: 'Athletics trial';
+  margin: 5%;
+  font-weight: bold;
+  color: rgb(32, 14, 14);
+}
+
+div.quiz {
+  display: inline;
+
+}
+
+li.quiz-answer {
+display: block;
+
+}
+
+div.quiz-container 
+  {
+    font-size: 1rem;
+  text-shadow: 1px 1px #ffffff50;
+  color: #00000099;
+  background: rgba(97, 247, 184, 0.4);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.result {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 2.5rem;
+  min-height: 100vh;
+  margin-top: -20px;
+}
+.final-score {
+  color: #00000099;
+  margin-top: -100px;
+}
+.summary {
+  font-size: 1rem;
+  text-shadow: 1px 1px #ffffff50;
+  color: #00000099;
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 2rem;
+  margin-bottom: 2rem;
+  margin-top: -600px;
+}
+.summary h1 {
+  margin-top: -5px;
+  align-self: center;
+  
+}
+
+.title {
+  font-family:'Athletics TRIAL';
+  font-size: 50px;
+  margin-top: 30px;
+}
+
+article {
+  columns:auto;
+  font-family: 'Athletics TRIAL';
+  display: flex;
+  flex-direction: column;
+  background-color: #ccb6da5a;
+}
+
+.amalfi2 {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.amalfi {
+  vertical-align: top;
+}
+

@@ -1,0 +1,45 @@
+@media screen
+    
+ {#mainhead {font-size: 20vw; 
+    text-align:center;
+font-family: 'Athletics trial'}; }
+
+#prompt { font-size: 10vw;
+
+}
+    
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #436FB6;
+    position: fixed;
+  top: 0;
+  width: 200px;
+  }
+
+  
+  li {
+    display: block;
+    background-color: #436FB6;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-family: 'Helvetica';
+    font-weight: bold;
+  }
+
+  li a:hover {
+    background-color: #757A84; }
+
+
+
+
+
+
